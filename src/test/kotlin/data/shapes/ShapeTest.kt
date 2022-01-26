@@ -1,16 +1,20 @@
-package model.shapes
+package data.shapes
 
-import model.colors.ColorName
-import model.colors.RedColor
-import model.colors.UndefinedColor
-import model.colors.YellowColor
+import data.enums.ColorName
+import data.enums.ColorName.UNDEFINED
+import data.enums.ColorName.YELLOW
+import data.enums.ShapeName
+import data.enums.ShapeName.*
+import data.shapes.features.RedColor
+import data.shapes.features.UndefinedColor
+import data.shapes.features.YellowColor
+import data.shapes.frames.Circle
+import data.shapes.frames.Line
+import data.shapes.frames.Square
+import data.shapes.frames.Triangle
 import org.hamcrest.CoreMatchers.`is`
 import org.junit.Assert.assertThat
 import org.junit.Test
-import model.colors.ColorName.*
-import model.shapes.impl.*
-import model.shapes.utils.ShapeName.*
-import model.shapes.utils.ShapeName
 
 class ShapeTest {
 

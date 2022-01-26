@@ -1,7 +1,7 @@
-package model.shapes
+package data.shapes
 
-import model.colors.RedColor
-import model.colors.YellowColor
+import data.shapes.features.RedColor
+import data.shapes.features.YellowColor
 
 interface Shape {
     fun transformShape(color: RedColor): Shape

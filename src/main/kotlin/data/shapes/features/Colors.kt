@@ -1,5 +1,6 @@
-package model.colors
-import model.colors.ColorName.*
+package data.shapes.features
+import data.enums.ColorName
+import data.enums.ColorName.*
 
 open class Color(val colorName: ColorName)
 

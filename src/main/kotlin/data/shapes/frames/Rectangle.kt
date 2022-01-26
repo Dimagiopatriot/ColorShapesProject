@@ -1,10 +1,11 @@
-package model.shapes.impl
+package data.shapes.frames
 
-import model.colors.Color
-import model.colors.RedColor
-import model.colors.YellowColor
-import model.shapes.Shape
-import model.shapes.utils.ShapeName.RECTANGLE
+import data.shapes.features.Color
+import data.shapes.features.RedColor
+import data.shapes.features.YellowColor
+import data.shapes.Shape
+import data.enums.ShapeName.RECTANGLE
+import data.shapes.CommonShape
 
 data class Rectangle(override val color: Color) : CommonShape(color) {
 
